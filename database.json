@@ -1,0 +1,227 @@
+{
+  "availability" : {
+    "-KBMOaq-yV6u9Ppyy0G8" : {
+      "2016-4-1" : {
+        "available" : false,
+        "order_id" : "-KBViCPHfA4AZa2nmW3v"
+      },
+      "2016-4-3" : {
+        "available" : false,
+        "order_id" : "-KBViCPU63B9x_7wHMOS"
+      },
+      "2016-4-4" : {
+        "available" : false,
+        "order_id" : "-KBViCPU63B9x_7wHMOS"
+      },
+      "2016-4-5" : {
+        "available" : false,
+        "order_id" : "-KBViCPU63B9x_7wHMOS"
+      }
+    },
+    "-KBMOaq84W7xSA5uhD8o" : {
+      "2016-5-1" : {
+        "available" : false,
+        "order_id" : "-KBViCPhZGpeprtoFEni"
+      }
+    }
+  },
+  "mibc" : {
+    "home" : {
+      "2016-02-16T06:51:03 01:00" : {
+        "foo" : "bar",
+        "i_love" : "lamp",
+        "id" : 42
+      },
+      "2016-02-16T06:55:57 01:00" : {
+        "foo" : "bar",
+        "i_love" : "lamp",
+        "id" : 42
+      },
+      "2016-02-16T07:00:54 01:00" : {
+        "foo" : "bar",
+        "i_love" : "lamp",
+        "id" : 42
+      },
+      "name" : {
+        "contact001" : "John Doe"
+      }
+    }
+  },
+  "orders" : {
+    "-KBViCPHfA4AZa2nmW3v" : {
+      "checkin_date" : "2016/4/1",
+      "checkout_date" : "2016/4/2",
+      "name" : "王柳鋐",
+      "notes" : "",
+      "paid" : 5800,
+      "person" : 2,
+      "price" : 5800,
+      "room_id" : "-KBMOaq-yV6u9Ppyy0G8",
+      "room_number" : 101,
+      "username" : "leuo@mubie.com"
+    },
+    "-KBViCPU63B9x_7wHMOS" : {
+      "checkin_date" : "2016/4/3",
+      "checkout_date" : "2016/4/6",
+      "name" : "王柳鋐",
+      "notes" : "2份素食早餐",
+      "paid" : 17400,
+      "person" : 4,
+      "price" : 17400,
+      "room_id" : "-KBMOaq-yV6u9Ppyy0G8",
+      "room_number" : 101,
+      "username" : "leuo@mubie.com"
+    },
+    "-KBViCPhZGpeprtoFEni" : {
+      "checkin_date" : "2016/5/1",
+      "checkout_date" : "2016/5/2",
+      "name" : "王柳鋐",
+      "notes" : "下午6點checkin",
+      "paid" : 4800,
+      "person" : 2,
+      "price" : 4800,
+      "room_id" : "-KBMOaq84W7xSA5uhD8o",
+      "room_number" : 103,
+      "username" : "leuo@mubie.com"
+    }
+  },
+  "rooms" : {
+    "-KBMOaq-yV6u9Ppyy0G8" : {
+      "capacity_max" : 4,
+      "capacity_min" : 1,
+      "child_max" : 4,
+      "child_min" : 1,
+      "double_bed" : "",
+      "options" : [ {
+        "amount" : "1",
+        "name" : "加床",
+        "operation" : "add to price",
+        "value" : "500"
+      } ],
+      "price" : "5,800",
+      "room_number" : 101,
+      "single_bed" : "",
+      "unit_name" : "101 都會工業風4人海景房 (1F)",
+      "unit_type" : "都會工業風4人海景房"
+    },
+    "-KBMOaq5i65qUj9xE5Rw" : {
+      "capacity_max" : 4,
+      "capacity_min" : 1,
+      "child_max" : 4,
+      "child_min" : 1,
+      "double_bed" : "",
+      "options" : [ {
+        "amount" : "1",
+        "name" : "加床",
+        "operation" : "add to price",
+        "value" : "500"
+      } ],
+      "price" : "5,800",
+      "room_number" : 102,
+      "single_bed" : "",
+      "unit_name" : "102 溫馨鄉村風4人海景房 (1F)",
+      "unit_type" : "溫馨鄉村風4人海景房"
+    },
+    "-KBMOaq84W7xSA5uhD8o" : {
+      "capacity_max" : 2,
+      "capacity_min" : 1,
+      "child_max" : 2,
+      "child_min" : 1,
+      "double_bed" : "",
+      "options" : [ {
+        "amount" : "1",
+        "name" : "加床",
+        "operation" : "add to price",
+        "value" : "500"
+      } ],
+      "price" : "4,800",
+      "room_number" : 103,
+      "single_bed" : "",
+      "unit_name" : "103 雙人大床.溫馨海景房 (1F)",
+      "unit_type" : "雙人大床.溫馨海景房"
+    },
+    "-KBMOaqBcNKryggRjXXK" : {
+      "capacity_max" : 2,
+      "capacity_min" : 1,
+      "child_max" : 2,
+      "child_min" : 1,
+      "double_bed" : "",
+      "options" : [ {
+        "amount" : "1",
+        "name" : "加床",
+        "operation" : "add to price",
+        "value" : "500"
+      } ],
+      "price" : "5,200",
+      "room_number" : 201,
+      "single_bed" : "",
+      "unit_name" : "201 雙人大床，山海景房 (2F)",
+      "unit_type" : "雙人大床，邊間山海景房"
+    },
+    "-KBMOaqFSxdm5Hw0VTjA" : {
+      "capacity_max" : 2,
+      "capacity_min" : 1,
+      "child_max" : 2,
+      "child_min" : 1,
+      "double_bed" : "",
+      "options" : [ {
+        "amount" : "1",
+        "name" : "加床",
+        "operation" : "add to price",
+        "value" : "500"
+      } ],
+      "price" : "5,200",
+      "room_number" : 202,
+      "single_bed" : "",
+      "unit_name" : "202 雙人大床，山海景房 (2F)",
+      "unit_type" : "雙人大床，山海景房"
+    }
+  },
+  "users" : {
+    "392e1e40-6c51-44e2-9f3f-34d0e59bf28e" : {
+      "address" : "",
+      "authority" : "member",
+      "avatar" : "",
+      "brith" : "",
+      "create_date" : "2016-02-23 11:31:44",
+      "id" : "",
+      "id_avatar" : "",
+      "mobile" : "",
+      "modified_date" : "2016-02-23 11:31:44",
+      "name" : "leuo",
+      "orders" : {
+        "-KBViCPPniw6bwTiUlR8" : {
+          "checkin_date" : "2016/4/1",
+          "checkout_date" : "2016/4/2",
+          "isCheckIn" : false,
+          "isCheckOut" : false,
+          "isVerified" : false,
+          "key_deactivated" : "",
+          "order_id" : "-KBViCPHfA4AZa2nmW3v",
+          "roomKey" : ""
+        },
+        "-KBViCPXwijHhGcbf1PF" : {
+          "checkin_date" : "2016/4/3",
+          "checkout_date" : "2016/4/6",
+          "isCheckIn" : false,
+          "isCheckOut" : false,
+          "isVerified" : false,
+          "key_deactivated" : "",
+          "order_id" : "-KBViCPU63B9x_7wHMOS",
+          "roomKey" : ""
+        },
+        "-KBViCPk7dXstkxgzbkx" : {
+          "checkin_date" : "2016/5/1",
+          "checkout_date" : "2016/5/2",
+          "isCheckIn" : false,
+          "isCheckOut" : false,
+          "isVerified" : false,
+          "key_deactivated" : "",
+          "order_id" : "-KBViCPhZGpeprtoFEni",
+          "roomKey" : ""
+        }
+      },
+      "provider" : "password"
+    }
+  }
+}

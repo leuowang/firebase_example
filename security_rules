@@ -1,0 +1,31 @@
+{
+    "rules": {
+      "users":{
+        ".write": true,
+        ".read": true,
+        "$user": {
+          ".write": "auth.uid === $user",
+          ".read" : "auth.uid === $user",
+          "orders" : {
+            ".indexOn": "checkin_date"
+          }
+        }
+      },
+      "orders":{
+        ".read": true,
+        ".write": true,
+        "$user":{
+           // can be read by authorized user, but no rule allows write access
+          ".read": "auth.uid === $user"
+        }
+      },
+      "rooms":{
+        ".read":true,
+        ".write":true
+      },
+      "availability":{
+        ".read":true,
+        ".write":true
+      }
+    }
+}
