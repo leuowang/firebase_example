@@ -1,4 +1,4 @@
-angular.module('starter.services', ['ngCordova', 'firebase'])
+angular.module('starter.services', ['firebase'])
   .factory('AuthService', function($q, $filter, $http, $firebaseAuth, $firebaseObject,
     USER_ROLES, SERVICE_AUTHORITY, CONSTANT) {
     var LOCAL_TOKEN_KEY = 'authToken';
@@ -11,9 +11,9 @@ angular.module('starter.services', ['ngCordova', 'firebase'])
     var authToken; // 字串，格式為  username:servertoken
 
     /* firbase settings*/
-    var ref = new Firebase("https://mibc.firebaseio.com/");
-    var roomRef = new Firebase("https://mibc.firebaseio.com/rooms"); // 房間管理
-    var orderRef = new Firebase("https://mibc.firebaseio.com/orders");
+    var ref = new Firebase("https://yourappname.firebaseio.com/");
+    var roomRef = new Firebase("https://yourappname.firebaseio.com/rooms"); // 房間管理
+    var orderRef = new Firebase("https://yourappname.firebaseio.com/orders"); // 訂單管理
     var auth = $firebaseAuth(ref); // 登入
     //var users = $firebaseObject(ref.child('users'));
 
